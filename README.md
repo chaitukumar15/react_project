@@ -46,3 +46,13 @@ function Hello(){
      </div>
     )
 }
+
+
+task -> 
+
+restaurant page -> using components (nested components )
+
+display all the fakestore api data ;
+
+es6 - array iteration methods  -> display cheyagalama ?
+ 
