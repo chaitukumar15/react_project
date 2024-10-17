@@ -1,6 +1,10 @@
 // import Hello from "./components/initial"
 
-import Display from "./components/display"
+// import Display from "./components/display"
+
+// import Prop_com from "./props/initial"
+
+import { H } from "./props/second"
 
 // import Firststcomponent from "./components/initial";
 
@@ -14,7 +18,7 @@ function App() {
 
   return (
 <>
-<Display/>
+<H/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 
