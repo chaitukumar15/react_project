@@ -138,3 +138,36 @@ js value
 module -> 
 
 public -> imges -> use chesukodam 
+
+...............................................
+
+
+conditional rendering -->
+
+based on the conditions we will render the components into dom ;
+
+
+1. if else statements 
+2. ternary 
+3.switch 
+4.logical and (&&) short circuit ->  (only true)
+
+
+ex-->
+
+admin com -> role- admin 
+
+user com ->  role - user 
+
+login -> 
+
+
+task -->
+
+
+cate- clothing(2) , electronis(2)->
+
+
+
+
+

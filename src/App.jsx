@@ -4,7 +4,10 @@
 
 // import Prop_com from "./props/initial"
 
-import { H } from "./props/second"
+// import { H } from "./props/second"
+
+
+import Condit from "./conditionalrendering/condi"
 
 // import Firststcomponent from "./components/initial";
 
@@ -18,7 +21,7 @@ function App() {
 
   return (
 <>
-<H/>
+<Condit/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 
