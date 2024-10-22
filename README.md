@@ -138,3 +138,70 @@ js value
 module -> 
 
 public -> imges -> use chesukodam 
+
+
+.....................................................
+
+
+state->
+
+object which hold the data/ info of a component 
+it is local to the component 
+
+3 phases ->
+
+inilization 
+updation 
+accessing 
+
+how to inilize -->
+
+with out constructor 
+
+with using constructor 
+
+.........................
+
+updation ->
+
+setstate() : in u call set state then u are asing react to rerender perticulr component 
+
+if we want to avoid infinte loop we need to use events for updating state .
+
+they are two ways to update state ->
+
+object way 
+
+    this.setState({
+
+        a:this.state.a+1
+    })
+
+functional way 
+
+    this.setState((prestate)=>{
+
+      return(
+        {
+          a:prestate.a+1
+        }
+      )
+    })
+
+
+    we need to use bind for binding current this in the events 
+    orelse we need to arrow functions 
+...................................................
+
+    task->
+1.
+counter 
+
+2.
+counter where 
+
+red -> 5 and above 
+
+green for 0 - 5 
+
+blue for 0 to (-infinite) 
