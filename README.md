@@ -138,3 +138,105 @@ js value
 module -> 
 
 public -> imges -> use chesukodam 
+................................................
+
+
+1. external module  system in styling -->
+
+by using module key word in file name ->
+
+filename.module.css
+
+rule -> only classes are being used (exported )
+
+when we are importing we need to import with the reference variable . 
+
+go to jj.jsx for reference ;
+
+.......................................................
+
+task ->
+
+1.restuarant page :
+
+4 -
+1. navbar 
+2. carosul 
+3. menu 
+4. maps -> iframes .
+5.footer 
+
+2. create the fakestore api - cards using bootstrap 
+
+
+........................................................
+
+class components ->
+
+   
+
+class com ->  logic/ func create 
+functions com -> ui part
+
+
+then 16.2 react --> hooks 
+
+
+func com-> fun /+ ui 
+class -> func creat 
+
+
+class ->  
+1. for understanding of basics .
+2. legacy projects .
+
+js class syntax 
+class classname{
+
+  constructor(){
+
+
+  }
+
+  remaining methods -> 
+}
+
+react class components syntax ->
+
+class Classcompoennetname extends component {
+
+predefined method which is used to render jsx ->
+
+render(){
+
+
+  return (
+
+    <>
+    ...jsx
+    </>
+  )
+
+
+}
+
+ }
+
+ ............
+
+ task ->
+ task ->
+
+1.restuarant page :
+
+4 -
+1. navbar 
+2. carosul 
+3. menu 
+4. maps -> iframes .
+5.footer 
+
+2. create the fakestore api - cards using bootstrap 
+
+create in class components 
+.............................................

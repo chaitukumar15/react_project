@@ -4,8 +4,13 @@
 
 // import Prop_com from "./props/initial"
 
-import { H } from "./props/second"
+// import { H } from "./props/second"
 
+import Hell from "./components/jj";
+
+import Caro from "./components/carosl";
+
+import Hellochai from "./classcomponents/res";
 // import Firststcomponent from "./components/initial";
 
 // import Secondstcomponent from "./components/second";
@@ -18,7 +23,7 @@ function App() {
 
   return (
 <>
-<H/>
+<Hellochai/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 
