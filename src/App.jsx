@@ -4,7 +4,7 @@
 
 // import Prop_com from "./props/initial"
 
-import { H } from "./props/second"
+import H from "./classcomponents/class"
 
 // import Firststcomponent from "./components/initial";
 
