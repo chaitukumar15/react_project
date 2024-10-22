@@ -6,8 +6,8 @@
 
 // import { H } from "./props/second"
 
-
-import Condit from "./conditionalrendering/condi"
+import Hell from "./components/class"
+// import Condit from "./conditionalrendering/condi"
 
 // import Firststcomponent from "./components/initial";
 
@@ -21,7 +21,7 @@ function App() {
 
   return (
 <>
-<Condit/>
+<Hell/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 
