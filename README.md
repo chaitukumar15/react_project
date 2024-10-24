@@ -205,3 +205,41 @@ red -> 5 and above
 green for 0 - 5 
 
 blue for 0 to (-infinite) 
+
+
+.............................................
+
+
+lifecycle phases ->
+mounting ->
+
+   constructor  -
+      to inialize the state and  props and functionality binding 
+   getderivedstatefrom props 
+       
+   render
+   componentdidmount
+
+updation ->
+
+      getderivedstatefrom props
+      shouldcompoenentupdate
+      render 
+      getsnapshotbeforeupdate
+      compoenentdidupdate
+
+unmounting :
+    
+      comonentwillunmount 
+
+............................................................
+
+task 
+
+. create an react app 
+
+.instal json-server 
+
+. in profile addd - values propmpt (in js )
+
+. dispaly it in other component 

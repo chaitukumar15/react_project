@@ -4,7 +4,9 @@
 
 // import Prop_com from "./props/initial"
 
-import H from "./classcomponents/class"
+import H from "./classcomponents/class";
+
+import Parent from "./lifecycle/parent";
 
 // import Firststcomponent from "./components/initial";
 
@@ -18,7 +20,7 @@ function App() {
 
   return (
 <>
-<H/>
+<Parent/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 
