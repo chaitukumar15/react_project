@@ -4,7 +4,13 @@
 
 // import Prop_com from "./props/initial"
 
+// import Todo from "./todo/todo"
+import Contrll from "./controlled components/controlled"
+
 import H from "./classcomponents/class"
+
+
+import Todolist from "./todolist/list"
 
 // import Firststcomponent from "./components/initial";
 
@@ -18,7 +24,7 @@ function App() {
 
   return (
 <>
-<H/>
+<Todolist/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 
