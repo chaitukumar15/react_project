@@ -14,7 +14,13 @@ import Uncon from "./controlled components/uncontrolled"
 
 import Todolist from "./todolist/list"
 
+
+import Tabletodo from "./tabletodo/tabletodo"
+
 import Todo from "./todoclass/todolistclass"
+
+
+import Ho from "./functional/fun"
 
 // import Firststcomponent from "./components/initial";
 
@@ -28,7 +34,7 @@ function App() {
 
   return (
 <>
-<Todo/>
+<Ho/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 

@@ -220,6 +220,22 @@ will use react states for state upate / collecting form data
  createref();
  
 
- 
+ .................................................
+
+ hooks->
+
+ In React, a "hook" is a special function that lets you use state and other React features in functional components. Introduced in React 16.8, hooks allow you to manage state, lifecycle events, and side effects without converting your components into class components.
+
+ 1.usestate(0).
+
+. initial paramer-> initial state 
+will return an array -> [state,fun whih is used to change state ]
+
+fun whih is used to change state -> work as this.setstate 
+
+
+var [state,setstate]=usestate(0);
+
+react Hook "useState" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook
 
 
