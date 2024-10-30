@@ -9,8 +9,12 @@ import Contrll from "./controlled components/controlled"
 
 import H from "./classcomponents/class"
 
+import Uncon from "./controlled components/uncontrolled"
+
 
 import Todolist from "./todolist/list"
+
+import Todo from "./todoclass/todolistclass"
 
 // import Firststcomponent from "./components/initial";
 
@@ -24,7 +28,7 @@ function App() {
 
   return (
 <>
-<Todolist/>
+<Todo/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 

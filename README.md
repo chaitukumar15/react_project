@@ -209,9 +209,17 @@ blue for 0 to (-infinite)
 ........................................................
 
 controlled :
+
 will use react states for state upate / collecting form data 
 
 
  uncontrolled :
 
  will use dom for collection of form data 
+
+ createref();
+ 
+
+ 
+
+
