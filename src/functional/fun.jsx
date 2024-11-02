@@ -1,39 +1,19 @@
-import { useState } from "react"
+import React, { useState, useEffect } from "react";
+import TimerComponent from "./fun2";
 
+function Ho() {
+  const [usr, setUsr] = useState(true);
 
+  const toggleComponent = () => {
+    setUsr(prevUsr => !prevUsr);
+  };
 
-
-
-function Ho(){
-    var [a,seta]=useState(0);
-
-    
-function env(){
-    seta((ps)=>{
-console.log(ps);
-
-return ps+1
-
-    })
-
+  return (
+    <>
+      {usr ? <TimerComponent /> : null}
+      <button onClick={toggleComponent}>Toggle Timer</button>
+    </>
+  );
 }
 
-var dec=()=>{
-
-
-    seta(a-1)
-}
-
-    return (
-        <>
-        <h1>todo</h1>
-
-        <h2>{a}</h2>
-
-        <button onClick={env}>change</button>
-        <button onClick={dec}>dec</button>
-        </>
-    )
-}
-
-export default Ho
+export default Ho;
