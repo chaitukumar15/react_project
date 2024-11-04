@@ -5,6 +5,8 @@
 // import Prop_com from "./props/initial"
 
 // import Todo from "./todo/todo"
+
+import Hello from "./todofun/todo"
 import Contrll from "./controlled components/controlled"
 
 import H from "./classcomponents/class"
@@ -34,7 +36,7 @@ function App() {
 
   return (
 <>
-<Ho/>
+<Hello/>
 {/* <Firststcomponent></Firststcomponent> */}
 {/* 
 

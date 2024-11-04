@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "title": "chaitanya",
+      "id": 1
+    },
+    {
+      "title": "chaitanyakumat",
+      "id": 2
+    },
+    {
+      "title": "raj mafan",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
